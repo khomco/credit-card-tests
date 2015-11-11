@@ -9,6 +9,10 @@ import java.math.BigDecimal;
 
 /**
  * Created by khomco on 11/2/15.
+ *
+ * A simple {@link InterestCalculatorService} implementation that calculates interest
+ * based on simply the interest rate times the current month's balance.
+ *
  */
 public class SimpleInterestCalculatorServiceImpl implements InterestCalculatorService {
 
